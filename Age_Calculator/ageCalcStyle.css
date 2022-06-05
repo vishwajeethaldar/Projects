@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #8EC5FC;
+    background: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+}
+#calc_container{
+    width: 400px;
+    border: 1px solid #eee;
+    box-shadow: 2px 2px 3px #eee;
+    background: #fff;
+    margin: 50px auto;
+    margin-bottom: 10px;
+}
+#calc_container>div>h1{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 30px auto;
+    color: rgb(255, 108, 10);
+}
+
+#form_wrap{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+.label{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    margin: 10px 0px;
+}
+input[type="date"]{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#submit{
+    margin: 20px 0px;
+    margin-bottom: 30px;
+    padding: 15px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    background-color: #8EC5FC;
+    background: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    border: none;
+    box-shadow: 1px 1px 2px #eee;
+    color: #fff;
+    text-shadow: 1px 1px 2px #999;
+}
+
+
+#result{
+    width: 500px;
+    margin:10px auto;
+    padding: 20px 0px 50px 0px;
+    background-color: #fff;
+    box-shadow: 2px 2px 3px #eee;
+
+}
+
+#result>.error{
+    color: red;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;    
+}
+
+#result>.res_title{
+    color: #557799;
+    text-align: center;
+}
+#result>.date{
+    padding-left: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+}
